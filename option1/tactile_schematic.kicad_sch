@@ -1580,7 +1580,7 @@
 		)
 		(uuid "75126840-1dee-4612-b25a-40a323a15549")
 	)
-	(text "Top Quadrants\n"
+	(text "Top Plate"
 		(exclude_from_sim no)
 		(at 78.74 85.09 0)
 		(effects
@@ -1600,7 +1600,7 @@
 		)
 		(uuid "9117c218-821e-4213-8879-9b76d4e1ac7d")
 	)
-	(text "Bottom\n"
+	(text "Bottom Plate"
 		(exclude_from_sim no)
 		(at 163.322 86.106 0)
 		(effects
@@ -1655,10 +1655,46 @@
 		(uuid "0c001c28-d714-4330-863d-a63e3748c10c")
 	)
 	(junction
+		(at 218.44 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "118c53d4-586b-401c-ab15-dae79a8ca588")
+	)
+	(junction
+		(at 180.34 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15bdd7f9-1b42-49b7-b04b-f7bf6ae9c7e5")
+	)
+	(junction
+		(at 191.77 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ca718a4-33f8-4c75-bf2a-0ea05318411f")
+	)
+	(junction
+		(at 168.91 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21829266-f6d5-4ab7-a123-d7442590976a")
+	)
+	(junction
 		(at 59.69 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28599779-45da-405d-ba10-5e4c61d99fab")
+	)
+	(junction
+		(at 168.91 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "297d25b2-f94e-4d85-9840-c47f0ca6fb79")
+	)
+	(junction
+		(at 218.44 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f82ab03-576c-4868-b2a6-543d4e6cddde")
 	)
 	(junction
 		(at 33.02 97.79)
@@ -1677,6 +1713,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52bf8b05-8fc6-40ec-8e5f-04bf8ff95eb2")
+	)
+	(junction
+		(at 191.77 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60704771-217f-4ded-9e75-4fe5df0113dc")
 	)
 	(junction
 		(at 115.57 106.68)
@@ -1703,10 +1745,34 @@
 		(uuid "8d9573f2-1b95-453e-b67e-8c73c81eac0a")
 	)
 	(junction
+		(at 218.44 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a645fc69-7335-448e-ab33-cf633f9e02ea")
+	)
+	(junction
+		(at 217.17 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8868e4d-8316-44f5-8769-88a6546b1745")
+	)
+	(junction
 		(at 204.47 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8696339-923a-47ae-abc7-cd59df4fbe08")
+	)
+	(junction
+		(at 217.17 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf83081e-b75d-4707-8c08-7a1e342d1b59")
+	)
+	(junction
+		(at 218.44 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1862c91-9be1-42b3-a921-db08b28319f6")
 	)
 	(junction
 		(at 201.93 59.69)
@@ -1714,12 +1780,26 @@
 		(color 0 0 0 0)
 		(uuid "e3ee44d3-e782-4473-90ae-8235dbda293d")
 	)
-	(no_connect
-		(at 93.98 59.69)
-		(uuid "0265de69-64f5-4a84-9159-515254f98d74")
+	(junction
+		(at 180.34 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb14b87a-abf8-4770-916a-e0b58b41822c")
 	)
 	(no_connect
-		(at 170.18 76.2)
+		(at 50.8 52.07)
+		(uuid "01f56ba5-dc63-4aa3-9248-e6a2caf936fc")
+	)
+	(no_connect
+		(at 175.26 53.34)
+		(uuid "11b9645f-6170-433d-947a-4556badc71cc")
+	)
+	(no_connect
+		(at 50.8 57.15)
+		(uuid "23bcbf50-18c1-481e-a606-1cf704de1c1c")
+	)
+	(no_connect
+		(at 161.29 76.2)
 		(uuid "27775559-7e80-484c-a806-874e74b07036")
 	)
 	(no_connect
@@ -1727,15 +1807,19 @@
 		(uuid "328a3912-2880-4071-845f-4e40778b7857")
 	)
 	(no_connect
-		(at 93.98 44.45)
-		(uuid "36f40206-6e3e-4d8f-a00c-06c65e2dbf8f")
-	)
-	(no_connect
 		(at 93.98 41.91)
 		(uuid "3b637f21-30b9-45c6-bbe3-d2193681c3c5")
 	)
 	(no_connect
-		(at 170.18 68.58)
+		(at 175.26 68.58)
+		(uuid "41f9b825-e85a-4a8d-9d0e-64193141e7d9")
+	)
+	(no_connect
+		(at 175.26 76.2)
+		(uuid "6baf76bb-44d3-4d8b-b277-a9e808acca52")
+	)
+	(no_connect
+		(at 161.29 68.58)
 		(uuid "738d52e4-81e8-442a-b040-9032dfe3c7c2")
 	)
 	(no_connect
@@ -1743,24 +1827,38 @@
 		(uuid "7412cfd9-4cd0-4946-ad5b-62777ae1a9ed")
 	)
 	(no_connect
-		(at 93.98 46.99)
-		(uuid "7ddd10da-8cca-4c97-9c97-cf6173e8160f")
-	)
-	(no_connect
-		(at 93.98 57.15)
-		(uuid "8ce2d480-7105-47d9-a17e-a5ab781460b3")
-	)
-	(no_connect
-		(at 170.18 53.34)
+		(at 161.29 53.34)
 		(uuid "9a13b7ef-a36c-42cb-bb46-13df18bd4be9")
 	)
 	(no_connect
-		(at 170.18 60.96)
+		(at 50.8 59.69)
+		(uuid "a8420378-9402-48ae-904b-9f56bffee7c7")
+	)
+	(no_connect
+		(at 161.29 60.96)
 		(uuid "bd574566-93d9-4148-bba1-3a806e6fdbf5")
+	)
+	(no_connect
+		(at 175.26 60.96)
+		(uuid "c0607d8a-ce57-47b8-b19b-47be81542c83")
 	)
 	(no_connect
 		(at 93.98 54.61)
 		(uuid "f22c19ba-b17e-4b8e-aedb-72e3207adc19")
+	)
+	(no_connect
+		(at 50.8 54.61)
+		(uuid "fe592d77-ec3d-4fa7-94b4-d5108683df99")
+	)
+	(wire
+		(pts
+			(xy 217.17 40.64) (xy 224.79 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0247920e-8b10-4768-a232-c58c596c4e65")
 	)
 	(wire
 		(pts
@@ -1874,6 +1972,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 38.1) (xy 224.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2259f4d8-9911-4e79-b2cb-364cd5a654d8")
+	)
+	(wire
+		(pts
 			(xy 162.56 25.4) (xy 162.56 27.94)
 		)
 		(stroke
@@ -1891,6 +1999,26 @@
 			(type default)
 		)
 		(uuid "24323d33-e23e-4dde-ae33-3feebe83de5b")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 97.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291d0500-89bb-41e7-a915-37c013cf3a5a")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 180.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a226b4-f390-4f18-9e0b-2f7dac5ac516")
 	)
 	(wire
 		(pts
@@ -1974,6 +2102,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 107.95) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496fa512-bcad-4fdf-829d-442043b01e52")
+	)
+	(wire
+		(pts
 			(xy 121.92 39.37) (xy 123.19 39.37)
 		)
 		(stroke
@@ -2024,6 +2162,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 44.45) (xy 97.79 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc7c35a-a926-47b3-ad7f-99118dd6ca91")
+	)
+	(wire
+		(pts
 			(xy 24.13 31.75) (xy 26.67 31.75)
 		)
 		(stroke
@@ -2064,6 +2212,26 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 95.25) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a3b466-2440-4e02-9e20-1b0b59c2756a")
+	)
+	(wire
+		(pts
+			(xy 218.44 59.69) (xy 229.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615c2958-8773-4874-9d8a-05fa99b612e3")
+	)
+	(wire
+		(pts
 			(xy 199.39 62.23) (xy 204.47 62.23)
 		)
 		(stroke
@@ -2084,6 +2252,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 95.25) (xy 203.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666720f5-b220-4e59-8dee-731464cb0bd9")
+	)
+	(wire
+		(pts
 			(xy 50.8 39.37) (xy 55.88 39.37)
 		)
 		(stroke
@@ -2091,6 +2269,16 @@
 			(type default)
 		)
 		(uuid "69b7d58d-9499-4ccf-b3d2-89f4bea20ad2")
+	)
+	(wire
+		(pts
+			(xy 93.98 46.99) (xy 97.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e553be2-af88-4af8-be45-e23b58285d75")
 	)
 	(wire
 		(pts
@@ -2134,6 +2322,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 57.15) (xy 97.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79095451-5119-4928-8109-3c0eb96e56d0")
+	)
+	(wire
+		(pts
 			(xy 204.47 62.23) (xy 218.44 62.23)
 		)
 		(stroke
@@ -2154,6 +2352,36 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 54.61) (xy 229.87 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8144eede-a3e5-45ae-958a-73fc9a655b0b")
+	)
+	(wire
+		(pts
+			(xy 168.91 107.95) (xy 180.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8201a621-ad7a-4585-8a08-f5c7226a8824")
+	)
+	(wire
+		(pts
+			(xy 180.34 95.25) (xy 191.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828d7069-5310-4b75-86eb-65b8cafbd4b1")
+	)
+	(wire
+		(pts
 			(xy 33.02 97.79) (xy 38.1 97.79)
 		)
 		(stroke
@@ -2171,6 +2399,26 @@
 			(type default)
 		)
 		(uuid "87d297d6-c4c5-4f77-9424-d91c0a1cab17")
+	)
+	(wire
+		(pts
+			(xy 180.34 107.95) (xy 191.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d37d45-3738-45cd-a6b3-f29ad3412bf9")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9143cb53-9003-499c-a3be-cd228930374a")
 	)
 	(wire
 		(pts
@@ -2224,6 +2472,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 95.25) (xy 180.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9afea244-4f5a-444d-8529-f9d032957959")
+	)
+	(wire
+		(pts
 			(xy 212.09 38.1) (xy 217.17 38.1)
 		)
 		(stroke
@@ -2251,6 +2509,16 @@
 			(type default)
 		)
 		(uuid "a1c45a8d-0d9b-40a1-b688-0cd2b39f3524")
+	)
+	(wire
+		(pts
+			(xy 218.44 57.15) (xy 229.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8aa2640-a39d-4a86-abf7-c5b41bbb6a99")
 	)
 	(wire
 		(pts
@@ -2304,6 +2572,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 105.41) (xy 191.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19b53d9-9702-4dbf-9cb9-c6d50341d8e5")
+	)
+	(wire
+		(pts
 			(xy 59.69 96.52) (xy 66.04 96.52)
 		)
 		(stroke
@@ -2331,6 +2609,16 @@
 			(type default)
 		)
 		(uuid "c2a7d65b-3572-4dd0-abfe-91d2fabc3ba7")
+	)
+	(wire
+		(pts
+			(xy 203.2 107.95) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b0601f-9f76-4fb3-97df-7121e7014f40")
 	)
 	(wire
 		(pts
@@ -2424,6 +2712,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 95.25) (xy 191.77 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77cc042-a05e-4603-a9af-68c9608de892")
+	)
+	(wire
+		(pts
 			(xy 120.65 106.68) (xy 115.57 106.68)
 		)
 		(stroke
@@ -2464,6 +2762,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 62.23) (xy 229.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b96d62-e900-4ae0-805d-4c3b34a11abf")
+	)
+	(wire
+		(pts
 			(xy 50.8 44.45) (xy 55.88 44.45)
 		)
 		(stroke
@@ -2481,6 +2789,28 @@
 			(type default)
 		)
 		(uuid "ff20ee4d-9dfc-49c4-bc69-525a12c38a6d")
+	)
+	(global_label "P0.1"
+		(shape input)
+		(at 97.79 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04de0fcd-fadd-4295-bbfe-50f5da094ee8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.069 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "P1.2"
 		(shape input)
@@ -2592,29 +2922,7 @@
 			)
 		)
 	)
-	(global_label "P2.0"
-		(shape input)
-		(at 50.8 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "497ab073-ebce-4250-9436-2bc4d6c0868b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.521 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P2.1"
+	(global_label "P3.1"
 		(shape input)
 		(at 85.09 109.22 180)
 		(fields_autoplaced yes)
@@ -2636,7 +2944,29 @@
 			)
 		)
 	)
-	(global_label "P2.2"
+	(global_label "P3.2"
+		(shape input)
+		(at 97.79 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50d5d530-837d-4488-ae00-a4bae55da102")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.069 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0.1"
 		(shape input)
 		(at 110.49 96.52 180)
 		(fields_autoplaced yes)
@@ -3010,28 +3340,6 @@
 			)
 		)
 	)
-	(global_label "P2.1"
-		(shape input)
-		(at 50.8 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b3197656-3083-4568-b32a-65e55246ede6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.521 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VDDD"
 		(shape input)
 		(at 199.39 59.69 180)
@@ -3076,7 +3384,7 @@
 			)
 		)
 	)
-	(global_label "P2.0"
+	(global_label "P3.2"
 		(shape input)
 		(at 85.09 96.52 180)
 		(fields_autoplaced yes)
@@ -3098,6 +3406,28 @@
 			)
 		)
 	)
+	(global_label "P3.1"
+		(shape input)
+		(at 97.79 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd738063-295e-44c7-a60a-8adcba841435")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.069 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P3.6"
 		(shape input)
 		(at 214.63 54.61 180)
@@ -3111,50 +3441,6 @@
 		(uuid "cc51f742-bfc4-4e17-8f22-afc33c8ac00d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.351 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P2.3"
-		(shape input)
-		(at 50.8 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d39aea30-1215-4953-a2fc-85e8e1b33163")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.521 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P2.2"
-		(shape input)
-		(at 50.8 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1666379-e52f-402a-b60a-7671851a7921")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.521 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3516,29 @@
 			)
 		)
 	)
-	(global_label "P2.3"
+	(global_label "P0.0"
+		(shape input)
+		(at 97.79 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f75abcd4-9607-41f0-b1ad-af087e01d8a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.069 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P0.0"
 		(shape input)
 		(at 110.49 106.68 180)
 		(fields_autoplaced yes)
@@ -3347,7 +3655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:E1"
+		(property "Footprint" "PCB Coils:COIL_GENERATOR"
 			(at 39.0652 107.95 0)
 			(effects
 				(font
@@ -3726,7 +4034,7 @@
 	)
 	(symbol
 		(lib_id "ECE445L:MountingHole")
-		(at 170.18 68.58 0)
+		(at 161.29 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3735,7 +4043,7 @@
 		(fields_autoplaced yes)
 		(uuid "2547f372-1016-444a-80ae-4de982803f04")
 		(property "Reference" "H3"
-			(at 166.37 64.77 0)
+			(at 157.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,7 +4051,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.37 67.31 0)
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +4059,7 @@
 			)
 		)
 		(property "Footprint" "ECE445L:MountingHole_4_40"
-			(at 170.18 68.58 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +4068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 68.58 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +4077,7 @@
 			)
 		)
 		(property "Description" "Drill hole for 4-40 screw"
-			(at 170.18 68.58 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,6 +4161,76 @@
 			(project "tactile_schematic"
 				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:C")
+		(at 191.77 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ff4474e-d205-4c60-8fc7-f0854f03afd8")
+		(property "Reference" "CE7"
+			(at 195.58 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 195.58 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCB Coils:COIL_GENERATOR"
+			(at 192.7352 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6046863-5c67-4556-a260-bb862b08715f")
+		)
+		(pin "2"
+			(uuid "afeb23b5-de1f-48a4-b673-2a22143b4727")
+		)
+		(instances
+			(project "tactile_schematic"
+				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
+					(reference "CE7")
 					(unit 1)
 				)
 			)
@@ -4130,6 +4508,146 @@
 		)
 	)
 	(symbol
+		(lib_id "ECE445L:C")
+		(at 180.34 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61cf7498-34a0-47ee-b716-6fcd63291d21")
+		(property "Reference" "CE6"
+			(at 184.15 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 184.15 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCB Coils:COIL_GENERATOR"
+			(at 181.3052 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "202415b8-123f-4c9d-8fc4-936c75c0a85c")
+		)
+		(pin "2"
+			(uuid "14edea91-3822-403b-8a52-db7164dc4869")
+		)
+		(instances
+			(project "tactile_schematic"
+				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
+					(reference "CE6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:C")
+		(at 203.2 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62b78197-75d1-4e1a-a6c4-7c13dec183f6")
+		(property "Reference" "CE8"
+			(at 207.01 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 207.01 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCB Coils:COIL_GENERATOR"
+			(at 204.1652 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "395c1815-f6c8-4b6f-8aaa-64a9a1062051")
+		)
+		(pin "2"
+			(uuid "67297430-b3ca-4e76-8f66-e286d22bacf0")
+		)
+		(instances
+			(project "tactile_schematic"
+				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
+					(reference "CE8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 59.69 96.52 0)
 		(unit 1)
@@ -4197,44 +4715,33 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE445L:C")
-		(at 168.91 101.6 0)
+		(lib_id "ECE445L:MountingHole")
+		(at 175.26 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d5fbe15-c9f5-43f1-a451-ae504016301e")
-		(property "Reference" "CE5"
-			(at 172.72 100.3299 0)
+		(uuid "6e0e99f6-4558-4f0c-bba1-4cc1c1cd408c")
+		(property "Reference" "H5"
+			(at 171.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 172.72 102.8699 0)
+		(property "Value" "~"
+			(at 171.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:Bottom_Electrode"
-			(at 169.8752 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 101.6 0)
+		(property "Footprint" "ECE445L:MountingHole_4_40"
+			(at 175.26 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,8 +4749,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 101.6 0)
+		(property "Datasheet" ""
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill hole for 4-40 screw"
+			(at 175.26 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,15 +4768,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "450b10b6-727f-454a-81cd-b19a5c5ec37f")
-		)
-		(pin "2"
-			(uuid "91bdf700-5b27-4d57-a289-2903034916cb")
+			(uuid "946b0f74-358b-4fb6-a9e1-f0ade78cd395")
 		)
 		(instances
 			(project "tactile_schematic"
 				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
-					(reference "CE5")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -4601,7 +5114,7 @@
 	)
 	(symbol
 		(lib_id "ECE445L:MountingHole")
-		(at 170.18 76.2 0)
+		(at 161.29 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4610,7 +5123,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c3cea4a-24ea-464c-abce-6f60bee8d3e2")
 		(property "Reference" "H4"
-			(at 166.37 72.39 0)
+			(at 157.48 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +5131,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.37 74.93 0)
+			(at 157.48 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +5139,7 @@
 			)
 		)
 		(property "Footprint" "ECE445L:MountingHole_4_40"
-			(at 170.18 76.2 0)
+			(at 161.29 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +5148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 76.2 0)
+			(at 161.29 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,7 +5157,7 @@
 			)
 		)
 		(property "Description" "Drill hole for 4-40 screw"
-			(at 170.18 76.2 0)
+			(at 161.29 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,6 +5178,71 @@
 		)
 	)
 	(symbol
+		(lib_id "ECE445L:MountingHole")
+		(at 175.26 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e8db161-8ebe-42ed-bb66-4117dc43e9c5")
+		(property "Reference" "H7"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECE445L:MountingHole_4_40"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill hole for 4-40 screw"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f683c0c4-0e62-4fa0-8c82-8cda78004b5f")
+		)
+		(instances
+			(project "tactile_schematic"
+				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 223.52 57.15 0)
 		(unit 1)
@@ -4672,10 +5250,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f93ad49-e5e9-43c9-aa7f-4f8579594afa")
 		(property "Reference" "J2"
-			(at 226.06 57.1499 0)
+			(at 222.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +5261,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 226.06 59.6899 0)
+			(at 217.424 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,6 +5385,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 229.87 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5071975-b4b3-4c27-b1a8-e4a9cbec94cd")
+		(property "Reference" "J4"
+			(at 232.41 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 232.41 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a631d019-fdb6-45dc-b3c9-cde99d2fc6b6")
+		)
+		(pin "1"
+			(uuid "973c6e71-ebe5-4c47-a1cf-cb3d69fcdef7")
+		)
+		(instances
+			(project "tactile_schematic"
+				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:MountingHole")
+		(at 175.26 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b53a25a8-5529-4b3d-b077-d316c5c2850f")
+		(property "Reference" "H8"
+			(at 171.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECE445L:MountingHole_4_40"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill hole for 4-40 screw"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cec6a64-62ab-4b39-8c51-e19565c581e1")
+		)
+		(instances
+			(project "tactile_schematic"
+				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 33.02 97.79 0)
 		(unit 1)
@@ -4902,7 +5614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:E1"
+		(property "Footprint" "PCB Coils:COIL_GENERATOR"
 			(at 121.6152 106.68 0)
 			(effects
 				(font
@@ -4946,7 +5658,7 @@
 	)
 	(symbol
 		(lib_id "ECE445L:MountingHole")
-		(at 170.18 60.96 0)
+		(at 161.29 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4955,7 +5667,7 @@
 		(fields_autoplaced yes)
 		(uuid "be27c871-298d-4020-a2b8-7abb8e3cf3cd")
 		(property "Reference" "H2"
-			(at 166.37 57.15 0)
+			(at 157.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +5675,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.37 59.69 0)
+			(at 157.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +5683,7 @@
 			)
 		)
 		(property "Footprint" "ECE445L:MountingHole_4_40"
-			(at 170.18 60.96 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +5692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 60.96 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,7 +5701,7 @@
 			)
 		)
 		(property "Description" "Drill hole for 4-40 screw"
-			(at 170.18 60.96 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,16 +5723,16 @@
 	)
 	(symbol
 		(lib_id "ECE445L:MountingHole")
-		(at 170.18 53.34 0)
+		(at 175.26 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dee41a8f-330b-475c-b974-91fbbb655d36")
-		(property "Reference" "H1"
-			(at 166.37 49.53 0)
+		(uuid "c5c0372b-860f-46dd-8ff6-02d27223146a")
+		(property "Reference" "H6"
+			(at 171.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +5740,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.37 52.07 0)
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5748,7 @@
 			)
 		)
 		(property "Footprint" "ECE445L:MountingHole_4_40"
-			(at 170.18 53.34 0)
+			(at 175.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +5757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 53.34 0)
+			(at 175.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5766,72 @@
 			)
 		)
 		(property "Description" "Drill hole for 4-40 screw"
-			(at 170.18 53.34 0)
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92e201f6-b7e2-4c1e-98a3-357012300781")
+		)
+		(instances
+			(project "tactile_schematic"
+				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:MountingHole")
+		(at 161.29 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dee41a8f-330b-475c-b974-91fbbb655d36")
+		(property "Reference" "H1"
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECE445L:MountingHole_4_40"
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill hole for 4-40 screw"
+			(at 161.29 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,6 +5846,81 @@
 			(project "tactile_schematic"
 				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 234.95 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e21fee36-de5c-4bb3-a901-a5b49e9cf7c6")
+		(property "Reference" "J3"
+			(at 233.934 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 233.426 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4d42b859-cbff-4006-a8f0-3dafe424be99")
+		)
+		(pin "2"
+			(uuid "9374f529-b09a-4ab6-883f-f244eaf1acf5")
+		)
+		(pin "4"
+			(uuid "5c2edb93-6696-4828-b3e6-e3c4e6dbc368")
+		)
+		(pin "1"
+			(uuid "fb13dc75-6ae4-4526-ad5b-7259cdd4de46")
+		)
+		(instances
+			(project "tactile_schematic"
+				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5102,7 +5954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:E1"
+		(property "Footprint" "PCB Coils:COIL_GENERATOR"
 			(at 96.2152 106.68 0)
 			(effects
 				(font
@@ -5280,6 +6132,76 @@
 		)
 	)
 	(symbol
+		(lib_id "ECE445L:C")
+		(at 168.91 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5178f9c-c51b-4103-a6e3-6e7a20d6ce5b")
+		(property "Reference" "CE5"
+			(at 172.72 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 172.72 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCB Coils:COIL_GENERATOR"
+			(at 169.8752 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec9bead-f971-408b-bb45-dff85efa945d")
+		)
+		(pin "2"
+			(uuid "fbda9e9e-a3e8-4ad5-a62b-059d873abdd8")
+		)
+		(instances
+			(project "tactile_schematic"
+				(path "/e66c08c0-8296-4725-aea0-c47ffef03168"
+					(reference "CE5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CY8C4145PVI-PS431:CY8C4145PVI-PS431")
 		(at 55.88 29.21 0)
 		(unit 1)
@@ -5305,7 +6227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P780X200-28N"
+		(property "Footprint" "ECE382N:SOP65P780X200-28N"
 			(at 90.17 124.13 0)
 			(effects
 				(font
@@ -5505,7 +6427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:E1"
+		(property "Footprint" "PCB Coils:COIL_GENERATOR"
 			(at 67.0052 106.68 0)
 			(effects
 				(font
