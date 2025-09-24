@@ -3655,7 +3655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCB Coils:COIL_GENERATOR"
+		(property "Footprint" "PCB Coils:COIL_GENERATOR_1"
 			(at 39.0652 107.95 0)
 			(effects
 				(font
@@ -4058,7 +4058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 161.29 68.58 0)
 			(effects
 				(font
@@ -4740,7 +4740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 175.26 53.34 0)
 			(effects
 				(font
@@ -5138,7 +5138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 161.29 76.2 0)
 			(effects
 				(font
@@ -5203,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -5480,7 +5480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 175.26 76.2 0)
 			(effects
 				(font
@@ -5614,7 +5614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCB Coils:COIL_GENERATOR"
+		(property "Footprint" "PCB Coils:COIL_GENERATOR_1"
 			(at 121.6152 106.68 0)
 			(effects
 				(font
@@ -5682,7 +5682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 161.29 60.96 0)
 			(effects
 				(font
@@ -5747,7 +5747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 175.26 60.96 0)
 			(effects
 				(font
@@ -5812,7 +5812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:MountingHole_4_40"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 161.29 53.34 0)
 			(effects
 				(font
@@ -5954,7 +5954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCB Coils:COIL_GENERATOR"
+		(property "Footprint" "PCB Coils:COIL_GENERATOR_1"
 			(at 96.2152 106.68 0)
 			(effects
 				(font
@@ -6427,7 +6427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCB Coils:COIL_GENERATOR"
+		(property "Footprint" "PCB Coils:COIL_GENERATOR_1"
 			(at 67.0052 106.68 0)
 			(effects
 				(font
