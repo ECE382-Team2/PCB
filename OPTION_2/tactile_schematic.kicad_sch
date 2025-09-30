@@ -4166,7 +4166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:COIL_GENERATOR"
+		(property "Footprint" "ECE382N:04W_04S_COIL_BACK"
 			(at 39.0652 106.68 0)
 			(effects
 				(font
@@ -4907,7 +4907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:COIL_GENERATOR"
+		(property "Footprint" "ECE382N:04W_04S_COIL_FRONT"
 			(at 192.7352 106.68 0)
 			(effects
 				(font
@@ -5629,7 +5629,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58810f21-771e-4731-8645-91c4963c37c3")
 		(property "Reference" "J1"
@@ -5871,7 +5871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:COIL_GENERATOR"
+		(property "Footprint" "ECE382N:04W_04S_COIL_FRONT"
 			(at 181.3052 106.68 0)
 			(effects
 				(font
@@ -5941,7 +5941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:COIL_GENERATOR"
+		(property "Footprint" "ECE382N:04W_04S_COIL_FRONT"
 			(at 204.1652 106.68 0)
 			(effects
 				(font
@@ -6855,7 +6855,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9f93ad49-e5e9-43c9-aa7f-4f8579594afa")
 		(property "Reference" "J2"
 			(at 257.81 52.07 0)
@@ -7066,7 +7066,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5071975-b4b3-4c27-b1a8-e4a9cbec94cd")
 		(property "Reference" "J4"
@@ -7356,7 +7356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:COIL_GENERATOR"
+		(property "Footprint" "ECE382N:04W_04S_COIL_BACK"
 			(at 121.6152 106.68 0)
 			(effects
 				(font
@@ -8104,7 +8104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:COIL_GENERATOR"
+		(property "Footprint" "ECE382N:04W_04S_COIL_BACK"
 			(at 96.2152 106.68 0)
 			(effects
 				(font
@@ -8511,7 +8511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:COIL_GENERATOR"
+		(property "Footprint" "ECE382N:04W_04S_COIL_FRONT"
 			(at 169.8752 106.68 0)
 			(effects
 				(font
@@ -8847,7 +8847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE382N:COIL_GENERATOR"
+		(property "Footprint" "ECE382N:04W_04S_COIL_BACK"
 			(at 67.0052 106.68 0)
 			(effects
 				(font
