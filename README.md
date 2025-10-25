@@ -1,3 +1,9 @@
+### HapticHomiesFT Sensor
+
+
+We used Capacitance Comb library to automatically generate these capacitance combs. Then, we used it in double-sided mode 
+ 
+
 There are three PCBs with different trace settings. 
 
 OPTION 1 ********************
