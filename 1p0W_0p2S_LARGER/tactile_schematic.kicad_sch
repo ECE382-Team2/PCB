@@ -3699,7 +3699,7 @@
 			)
 		)
 	)
-	(global_label "SHEILD"
+	(global_label "SHIELD"
 		(shape input)
 		(at 228.6 99.06 90)
 		(fields_autoplaced yes)
@@ -3765,7 +3765,7 @@
 			)
 		)
 	)
-	(global_label "SHEILD"
+	(global_label "SHIELD"
 		(shape input)
 		(at 55.88 52.07 180)
 		(fields_autoplaced yes)
@@ -4029,7 +4029,7 @@
 			)
 		)
 	)
-	(global_label "SHEILD"
+	(global_label "SHIELD"
 		(shape input)
 		(at 52.07 62.23 180)
 		(fields_autoplaced yes)
@@ -4051,7 +4051,7 @@
 			)
 		)
 	)
-	(global_label "SHEILD"
+	(global_label "SHIELD"
 		(shape input)
 		(at 236.22 99.06 90)
 		(fields_autoplaced yes)
