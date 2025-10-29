@@ -64,6 +64,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -11840,14 +11841,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "7f5437f1-6c1b-4646-923d-1e2892e97b39")
-	)
-	(segment
-		(start 131.482849 120.153371)
-		(end 131.482849 122.496125)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "8b6bc729-2151-4fe0-900a-c98290f4f484")
 	)
 	(segment
 		(start 113.075603 114.996125)
