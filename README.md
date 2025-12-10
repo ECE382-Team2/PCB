@@ -7,7 +7,7 @@ We used the Capacitance Comb library to automatically generate various configura
 ## PCB Configurations
 There are multiple PCB configurations that vary by trace width, trace spacing, and the overall diameter of the electrode array (the circle formed by the four quadrants of electrodes).
 
-### Electrode Array Diameter: 36 mm
+### Electrode Array Diameter: 35 mm
 
 | Option | Trace Width (mm) | Trace Spacing (mm) |
 |:-------:|:----------------:|:------------------:|
