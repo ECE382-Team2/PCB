@@ -1,4 +1,4 @@
-# OreoFT Sensor
+# OreoFT PCB
 
 
 We used the Capacitance Comb library to automatically generate various configurations of capacitive comb structures for our capacitive force-torque (FT) sensor. Using the library in double-sided mode allowed us to create identical electrode traces for the top and bottom layers, ensuring symmetry and consistency. This automated generation process streamlined our sensor bring-up and improved design repeatability across different PCB configurations.
